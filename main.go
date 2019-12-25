@@ -15,4 +15,8 @@ func main() {
 	// quicksort
 	sortedlist = sort.Quicksort(mylist)
 	fmt.Println(sortedlist)
+
+	// selectionsort
+	sortedlist = sort.Selectionsort(mylist)
+	fmt.Println(sortedlist)
 }
