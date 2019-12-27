@@ -9,14 +9,18 @@ func main() {
 	mylist := []int{5, 4, 3, 2, 1}
 
 	// mergesort
-	sortedlist := sort.Mergesort(mylist)
+	sortedlist := sort.MergeSort(mylist)
 	fmt.Println(sortedlist)
 
 	// quicksort
-	sortedlist = sort.Quicksort(mylist)
+	sortedlist = sort.QuickSort(mylist)
 	fmt.Println(sortedlist)
 
 	// selectionsort
-	sortedlist = sort.Selectionsort(mylist)
+	sortedlist = sort.SelectionSort(mylist)
+	fmt.Println(sortedlist)
+
+	// heapsort
+	sortedlist = sort.HeapSort(mylist)
 	fmt.Println(sortedlist)
 }

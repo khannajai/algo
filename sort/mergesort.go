@@ -22,16 +22,16 @@ func merge(left, right []int) []int {
 	return result
 }
 
-// Mergesort sorts a list
-func Mergesort(arr []int) []int {
+// MergeSort sorting algorithm
+func MergeSort(arr []int) []int {
 	if len(arr) <= 1 {
 		return arr
 	}
 
 	middle := len(arr) / 2
 
-	left := Mergesort(arr[:middle])
-	right := Mergesort(arr[middle:])
+	left := MergeSort(arr[:middle])
+	right := MergeSort(arr[middle:])
 
 	return merge(left, right)
 }

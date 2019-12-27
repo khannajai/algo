@@ -1,7 +1,7 @@
 package sort
 
-// Selectionsort sorting algorithm
-func Selectionsort(arr []int) []int {
+// SelectionSort sorting algorithm
+func SelectionSort(arr []int) []int {
 	var min int = 0
 	var tmp int = 0
 

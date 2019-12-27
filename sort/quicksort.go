@@ -4,8 +4,8 @@ import (
 	"math/rand"
 )
 
-// Quicksort description
-func Quicksort(arr []int) []int {
+// QuickSort sorting algorithm
+func QuickSort(arr []int) []int {
 
 	if len(arr) <= 1 {
 		return arr
@@ -28,8 +28,8 @@ func Quicksort(arr []int) []int {
 		}
 	}
 
-	low = Quicksort(low)
-	high = Quicksort(high)
+	low = QuickSort(low)
+	high = QuickSort(high)
 
 	low = append(low, middle...)
 	low = append(low, high...)
