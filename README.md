@@ -1,6 +1,8 @@
 # algo
 Algorithms and Data Structures in Go
 
+For learning purposes
+
 ## Install and run
 To download and install the library, simply run
 ```go get -v github.com/khannajai/algo```
